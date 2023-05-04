@@ -1,0 +1,78 @@
+
+.img-bg {
+    width: 530px;
+    height: 690px;
+}
+.login-container {
+    margin: 30px;
+}
+
+.login-img {
+    width: 500px;
+}
+
+.login-form-containerr {
+    margin: auto;
+}
+
+.login-form {
+    color: white;
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+    background: linear-gradient(180deg, #9c1525 0%, #4b0c14 100%);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.form-title {
+    margin-top: 50px;
+}
+
+.signup-btn:hover {
+    cursor: pointer;
+}
+
+.login-button-submit {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+.login-input-text {
+    width: 640px;
+    height: 60px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding-left: 10px;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.login-input-text:hover {
+    background-color: #72131e;
+}
+
+.login-input-text:focus {
+    background-color: #ffffff;
+    color: #72131e;
+}
+
+.login-account {
+    background: white;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 231px;
+    height: 60px;
+    color: #72131e;
+    transition: transform 0.2s ease-out;
+}
+
+.login-account:hover {
+    background-color: #7c0a17;
+    color: white;
+    transform: scale(1.03);
+}
+
+/* Login Ends here */
