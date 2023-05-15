@@ -3,25 +3,25 @@ const messages = [
         title: "Welcome to our employee training program!",
         message:
             "Get ready to dive into a world of knowledge and growth as we help you level up your skills and prepare you for success.",
-        image: "assets/splash1.jpg",
+        image: "../assets/splash1.jpg",
     },
     {
         title: "Stay up-to-date",
         message:
             "Our training program is tailored to meet the needs of employees at all levels of the organization, from entry-level to senior management.",
-        image: "assets/splash2.jpg",
+        image: "../assets/splash2.jpg",
     },
     {
         title: "Learn something new",
         message:
             "Our interactive training modules are designed to be engaging and practical, allowing you to apply your learning in real-world situations.",
-        image: "assets/splash3.jpg",
+        image: "../assets/splash3.jpg",
     },
     {
         title: "The perfect Employee",
         message:
             "We're committed to your success and believe that investing in employee training is critical to the growth and success of our organization.",
-        image: "assets/splash4.jpg",
+        image: "../assets/splash4.jpg",
     },
 ];
 
