@@ -472,7 +472,7 @@ body {
 }
 
 .content-4 {
-    background-image: url("assets/about-bg-2.jpg");
+    background-image: url("../assets/about-bg-2.jpg");
     background-size: cover;
     background-position: center;
     min-height: 100vh;

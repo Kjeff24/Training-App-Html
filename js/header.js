@@ -1,5 +1,7 @@
 
 const linkItem = document.querySelectorAll("a");
+const iconBtn = document.querySelector(".icon-btn")
+const navLinksAll = document.querySelector(".nav-links-all")
 
 linkItem.forEach(link =>{
     link.addEventListener('click', function() {
@@ -8,10 +10,11 @@ linkItem.forEach(link =>{
     })
 })
 
-// iconBtn.addEventListener("click", function () {
-//   navLinks.classList.toggle("active");
-//   iconBtn.classList.toggle("active");
-// });
+
+iconBtn.addEventListener("click", function () {
+  navLinksAll.classList.toggle("active");
+  iconBtn.classList.toggle("active");
+});
 
 
 // window.addEventListener("scroll", () => {

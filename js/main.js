@@ -1,5 +1,7 @@
 
 const linkItem = document.querySelectorAll(".side-bar-content-row")
+const iconBtn = document.querySelector(".icon-btn")
+const navLinksAll = document.querySelector(".nav-links-all")
 const navLinks = document.querySelectorAll(".nav-links")
 
 linkItem.forEach(link =>{
@@ -22,3 +24,7 @@ navLinks.forEach(link =>{
     })
 })
 
+iconBtn.addEventListener("click", function () {
+  navLinksAll.classList.toggle("active");
+  iconBtn.classList.toggle("active");
+});
